@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6d2d17">
+  <meta name="description" content="Império Variedades: utilidades para casa, decoração, presentes e muito mais. A casa é sua!" />
+  <title>Império Variedades — A casa é sua!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root{--wine:#6d2d17;--wine-dark:#492014;--gold:#e9c45f;--cream:#fbf7ee;--paper:#f3eddf;--ink:#30241e;--muted:#7e7066;--line:#e7ddcd;--white:#fffdf9;--sans:'DM Sans',Arial,sans-serif;--serif:'Playfair Display',Georgia,serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.topline{padding:10px 16px;text-align:center;background:var(--wine-dark);color:#fff7e6;font-size:10px;letter-spacing:.13em;text-transform:uppercase}.topline b{color:var(--gold);font-weight:600}.nav{height:79px;padding:0 max(5vw,24px);display:flex;align-items:center;justify-content:space-between;background:var(--cream);position:sticky;top:0;z-index:4;border-bottom:1px solid #ede5d7e0;backdrop-filter:blur(12px)}.brand{display:flex;align-items:center;gap:11px}.brand img{height:47px;width:47px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}.brand-name{font-size:17px;line-height:1;font-weight:800;letter-spacing:-.055em;color:var(--wine)}.brand-name small{display:block;font-size:9px;letter-spacing:.19em;margin-top:5px;color:#866439;font-weight:700;text-transform:uppercase}.navlinks{display:flex;align-items:center;gap:31px;font-size:12px;font-weight:600;color:#66564a}.navlinks a:hover{color:var(--wine)}.nav-cta{border:1px solid var(--wine);border-radius:3px;padding:12px 16px;color:var(--wine);font-weight:700;font-size:11px}.nav-cta:hover{background:var(--wine);color:white}.hero{min-height:620px;padding:60px 8vw 70px;display:grid;grid-template-columns:.87fr 1.13fr;align-items:center;gap:5vw;overflow:hidden;background:radial-gradient(ellipse at 80% 45%,#efe2c5 0,transparent 47%),var(--cream)}.hero-copy{position:relative;z-index:1;max-width:485px}.eyebrow{display:flex;align-items:center;gap:9px;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#947847}.eyebrow:before{content:'';height:1px;width:25px;background:var(--gold)}h1{font-size:clamp(50px,6.1vw,82px);line-height:.97;letter-spacing:-.08em;margin:22px 0 19px;font-weight:700;color:var(--wine-dark)}h1 em{font-family:var(--serif);font-weight:500;color:#bd7d2c;letter-spacing:-.07em}.hero-copy p{font-size:14px;line-height:1.8;color:var(--muted);max-width:375px;margin:0 0 27px}.actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:23px;padding:15px 19px;background:var(--wine);color:white;font-size:11px;font-weight:700;border-radius:3px;transition:transform .2s,background .2s}.button:hover{background:var(--wine-dark);transform:translateY(-2px)}.underlink{font-size:11px;font-weight:700;border-bottom:1px solid #b6a994;padding:0 0 4px}.hero-visual{position:relative;min-height:480px;display:grid;place-items:center}.hero-photo-wrap{width:min(100%,540px);height:450px;border-radius:47% 47% 8px 8px;overflow:hidden;position:relative;background:#dfd1b9;box-shadow:0 25px 65px #51311920}.hero-photo{height:100%;width:100%;object-fit:cover;object-position:center 54%;transition:transform .8s}.hero-photo-wrap:hover .hero-photo{transform:scale(1.035)}.hero-photo-wrap:after{content:'';position:absolute;inset:48% 0 0;background:linear-gradient(transparent,#38221655)}.photo-caption{position:absolute;z-index:1;left:27px;bottom:24px;color:white}.photo-caption b{display:block;font-size:17px;letter-spacing:-.04em}.photo-caption small{font-size:10px;color:#fff2dd}.stamp{position:absolute;right:-14px;top:51px;z-index:2;width:92px;height:92px;border-radius:50%;display:grid;place-items:center;text-align:center;background:var(--gold);color:var(--wine-dark);font-size:10px;font-weight:800;line-height:1.35;letter-spacing:.07em;transform:rotate(8deg);box-shadow:0 9px 20px #55351d24}.stamp span{font-size:20px;display:block}.note{position:absolute;bottom:42px;left:-30px;z-index:2;background:var(--white);padding:13px 16px;box-shadow:0 12px 28px #35231620;border-left:3px solid var(--gold);font-size:10px;color:var(--muted);transform:rotate(-3deg)}.note b{display:block;color:var(--wine);font-size:12px;margin-bottom:3px}
+    .ticker{overflow:hidden;background:var(--gold);border-block:1px solid #d5b553;padding:15px 0;white-space:nowrap}.ticker-track{display:inline-flex;gap:32px;align-items:center;animation:marquee 32s linear infinite;font-size:10px;letter-spacing:.15em;font-weight:800;text-transform:uppercase;color:var(--wine-dark)}.ticker i{font-style:normal;color:#fff9e8;font-size:15px}@keyframes marquee{to{transform:translateX(-50%)}}
+    .section{padding:88px 8vw}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:29px}.section-head h2{font-size:clamp(34px,4vw,52px);line-height:1;letter-spacing:-.075em;margin:12px 0 0;color:var(--wine-dark)}.section-head p{font-size:12px;line-height:1.75;color:var(--muted);max-width:340px;margin:0}.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.category{position:relative;min-height:210px;overflow:hidden;border-radius:5px;background:#e8ddc9;transition:transform .25s}.category:hover{transform:translateY(-5px)}.category img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .45s}.category:hover img{transform:scale(1.05)}.category:after{content:'';position:absolute;inset:38% 0 0;background:linear-gradient(transparent,#27160ed9)}.cat-label{position:absolute;left:16px;bottom:15px;color:white;z-index:1}.cat-label b{font-size:15px;display:block}.cat-label small{font-size:10px;color:#f3e8d5}.category .chip{position:absolute;top:12px;left:12px;z-index:1;background:#fffaf0e8;border-radius:2px;padding:6px 8px;color:var(--wine);font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}
+    .story{display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:center;padding:76px 9vw;background:var(--wine-dark);color:white;overflow:hidden}.story-image{height:370px;border-radius:4px;overflow:hidden;position:relative}.story-image img{height:100%;width:100%;object-fit:cover}.story-image:after{content:'';position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#21130d88)}.story-image span{position:absolute;z-index:1;bottom:20px;left:22px;color:white;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.story-copy .eyebrow{color:var(--gold)}.story-copy h2{font-size:clamp(39px,5vw,62px);line-height:.99;letter-spacing:-.08em;margin:19px 0}.story-copy h2 em{font-family:var(--serif);font-weight:500;color:var(--gold)}.story-copy p{font-size:13px;line-height:1.8;color:#e4d7c5;max-width:400px;margin:0 0 25px}.story .button{background:var(--gold);color:var(--wine-dark)}.story .button:hover{background:#f2d98c}
+    .products{background:var(--paper)}.products-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.product{min-width:0}.product-photo{aspect-ratio:.91;position:relative;overflow:hidden;background:#e4dac8;border-radius:4px}.product-photo img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.product:hover img{transform:scale(1.045)}.pill{position:absolute;top:11px;left:11px;background:#fffaf0ed;color:var(--wine);padding:6px 9px;border-radius:2px;font-size:8px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.product-info{display:flex;justify-content:space-between;align-items:start;gap:10px;padding:12px 1px}.product-info b{display:block;font-size:12px;color:var(--wine-dark)}.product-info small{display:block;font-size:10px;color:var(--muted);margin-top:4px}.product-info a{font-size:10px;font-weight:700;color:#986322;white-space:nowrap;border-bottom:1px solid #cbb783;padding-bottom:3px}
+    .quote{padding:88px 12vw;text-align:center;background:#ead7b7;position:relative;overflow:hidden}.quote:before,.quote:after{content:'✳';position:absolute;font-size:130px;color:#fff4;top:2%;left:5%;transform:rotate(-12deg)}.quote:after{left:auto;right:5%;top:auto;bottom:-20%;font-size:190px}.quote blockquote{position:relative;z-index:1;margin:0 auto 20px;max-width:790px;font-size:clamp(27px,4.1vw,49px);line-height:1.13;letter-spacing:-.055em;color:var(--wine-dark)}.quote blockquote em{font-family:var(--serif);font-weight:500;color:#ae762a}.quote cite{position:relative;z-index:1;font-style:normal;text-transform:uppercase;letter-spacing:.17em;font-size:9px;font-weight:800;color:#755332}
+    .visit{padding:66px 8vw;display:flex;align-items:center;justify-content:space-between;gap:25px}.visit h2{font-size:clamp(29px,4vw,42px);letter-spacing:-.07em;color:var(--wine-dark);margin:0 0 7px}.visit p{font-size:12px;color:var(--muted);margin:0}.visit-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.visit .button{gap:12px}.ig-button{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);padding:13px 15px;border-radius:3px;font-size:10px;font-weight:700}.ig-button:hover{border-color:var(--wine);color:var(--wine)}.footer{padding:27px 8vw;background:#321b13;color:#f8eedc;display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:10px}.footer .brand-name{color:#fff0cf}.footer .brand-name small{color:#d9b968}.footer .brand img{height:38px;width:38px}.footer-links{display:flex;gap:20px;color:#e6d7be}.footer-links a:hover{color:var(--gold)}
+    @media(max-width:800px){.nav{height:69px}.navlinks{display:none}.hero{grid-template-columns:1fr;gap:20px;padding:56px 7vw 45px}.hero-copy{max-width:600px}.hero-visual{min-height:410px;width:min(100%,560px);margin:auto}.hero-photo-wrap{height:400px}.section{padding:70px 7vw}.categories{grid-template-columns:repeat(2,1fr)}.category{min-height:190px}.story{grid-template-columns:1fr;padding:62px 8vw;gap:34px}.story-image{height:300px}.story-copy{grid-row:1}.products-grid{grid-template-columns:repeat(2,1fr);row-gap:19px}.visit{align-items:flex-start;flex-direction:column}.footer{flex-wrap:wrap}.footer-links{order:3;width:100%;flex-wrap:wrap}}
+    @media(max-width:460px){.topline{font-size:8px}.nav{padding-inline:18px}.brand img{height:41px;width:41px}.brand-name{font-size:15px}.nav-cta{font-size:9px;padding:10px}.hero{padding:47px 22px 34px}h1{font-size:59px}.hero-copy p{font-size:13px}.hero-visual{min-height:345px;margin-inline:-10px}.hero-photo-wrap{height:330px}.stamp{right:-3px;top:28px;width:75px;height:75px;font-size:8px}.stamp span{font-size:16px}.note{left:0;bottom:21px}.section{padding:62px 22px}.section-head{align-items:flex-start;flex-direction:column}.section-head p{max-width:none}.category{min-height:163px}.cat-label{left:11px;bottom:11px}.cat-label b{font-size:13px}.cat-label small{font-size:9px}.category .chip{top:8px;left:8px}.story{padding:57px 23px}.story-image{height:250px}.quote{padding:74px 23px}.visit{padding:57px 23px}.visit-right{align-items:stretch;flex-direction:column;width:100%}.visit-right a{justify-content:center}.footer{padding:23px}.footer-links{gap:14px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+    /* Acabamento editorial e movimentos de entrada */
+    :root{--sans:'Manrope',Arial,sans-serif;--serif:'Cormorant Garamond',Georgia,serif;--cream:#fcfaf5;--paper:#f5f1e8;--wine:#682a18;--gold:#d8b45b}
+    body{background:var(--cream);letter-spacing:-.012em}
+    .topline{font-size:9px;letter-spacing:.16em;padding:11px 16px}
+    .nav{height:86px;padding-inline:max(6vw,26px);box-shadow:0 5px 20px #49201408}
+    .brand img{height:49px;width:49px;border:1px solid #d8b45b}
+    .brand-name{font-size:18px;letter-spacing:-.065em}
+    .brand-name small{font-size:8px;letter-spacing:.24em}
+    .navlinks{gap:36px;font-size:11px;letter-spacing:.015em}
+    .nav-cta,.button,.ig-button{border-radius:2px;letter-spacing:.04em}
+    .nav-cta{padding:13px 18px}
+    .download-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 14px;border:1px solid #d7c493;color:var(--wine);font-size:10px;font-weight:800;letter-spacing:.04em;background:#f4ecd9}
+    .download-cta:hover{background:var(--gold);border-color:var(--gold)}
+    .hero{min-height:675px;padding:68px 9vw 78px;grid-template-columns:.9fr 1.1fr;gap:6vw;background:radial-gradient(ellipse at 80% 46%,#eee1c9 0,transparent 46%),linear-gradient(115deg,#fcfaf5,#f8f4eb)}
+    .eyebrow{font-size:9px;letter-spacing:.21em}
+    h1{font-family:var(--serif);font-weight:500;font-size:clamp(70px,8vw,110px);line-height:.82;letter-spacing:-.055em;margin:27px 0 25px}
+    h1 em{font-weight:500;letter-spacing:-.065em}
+    .hero-copy p{font-size:13px;line-height:1.9;max-width:355px}
+    .hero-photo-wrap{height:482px;border-radius:48% 48% 3px 3px;box-shadow:0 34px 78px #51311926}
+    .hero-photo{object-position:center 51%}
+    .stamp{width:100px;height:100px;right:-22px;top:42px;box-shadow:0 12px 28px #55351d2b}
+    .note{bottom:31px;left:-38px;padding:15px 18px}
+    .section{padding-block:104px}
+    .section-head{margin-bottom:37px}
+    .section-head h2,.story-copy h2,.visit h2{font-family:var(--serif);font-weight:500;font-size:clamp(48px,5.4vw,70px);letter-spacing:-.045em;line-height:.88}
+    .section-head p{font-size:11px;line-height:1.9;max-width:310px}
+    .categories{gap:16px}
+    .category{border-radius:2px;min-height:248px;box-shadow:0 10px 28px #35231608}
+    .category img{filter:saturate(.92)}
+    .category .chip{letter-spacing:.14em;padding:7px 10px}
+    .cat-label b{font-size:16px;letter-spacing:-.025em}
+    .cat-label small{font-size:9px;letter-spacing:.02em}
+    .story{padding-block:94px;background:linear-gradient(120deg,#3e2118,#512718 62%,#3e2118)}
+    .story-image{height:425px;box-shadow:0 24px 60px #150a0750}
+    .story-copy h2{font-size:clamp(58px,6.5vw,82px);line-height:.83;margin:24px 0}
+    .story-copy p{font-size:12px;line-height:1.95}
+    .products-grid{gap:20px}
+    .product-photo{border-radius:2px;aspect-ratio:.86;background:#e9e1d3}
+    .product-photo img{filter:saturate(.95)}
+    .product:hover .product-photo{box-shadow:0 14px 34px #39271a1a}
+    .pill{letter-spacing:.13em;padding:7px 10px}
+    .product-info{padding-top:15px}
+    .product-info b{font-size:11px;letter-spacing:.01em}
+    .product-info small{font-size:9px;letter-spacing:.015em}
+    .product-info a{letter-spacing:.035em}
+    .quote{padding-block:104px;background:linear-gradient(130deg,#eadbbd,#f0e4cb 52%,#e5d3af)}
+    .quote blockquote{font-family:var(--serif);font-size:clamp(43px,6vw,72px);font-weight:500;letter-spacing:-.04em;line-height:.95}
+    .quote cite{font-size:8px;letter-spacing:.21em}
+    .visit{padding-block:82px}
+    .visit h2{font-size:clamp(43px,5vw,61px);line-height:.9;max-width:530px;margin-bottom:12px}
+    .visit p{font-size:11px;line-height:1.8}
+    .footer{padding-block:32px;letter-spacing:.015em}
+    .footer-links{font-size:9px;letter-spacing:.04em}
+    .hero-copy > *{opacity:0;animation:heroRise .8s cubic-bezier(.2,.7,.2,1) forwards}
+    .hero-copy > :nth-child(1){animation-delay:.08s}.hero-copy > :nth-child(2){animation-delay:.2s}.hero-copy > :nth-child(3){animation-delay:.34s}.hero-copy > :nth-child(4){animation-delay:.48s}
+    .hero-visual{opacity:0;animation:heroImage 1.05s cubic-bezier(.2,.7,.2,1) .12s forwards}
+    .stamp{animation:stampEnter .75s cubic-bezier(.2,.8,.2,1) .8s both}
+    @keyframes heroRise{from{opacity:0;transform:translateY(22px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+    @keyframes heroImage{from{opacity:0;transform:translateY(24px) scale(.97);filter:blur(4px)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+    @keyframes stampEnter{from{opacity:0;transform:translateY(14px) rotate(-8deg) scale(.84)}to{opacity:1;transform:translateY(0) rotate(8deg) scale(1)}}
+    .reveal{opacity:0;transform:translateY(24px);filter:blur(3px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1),filter .7s ease;transition-delay:var(--delay,0ms)}
+    .reveal.is-visible{opacity:1;transform:translateY(0);filter:blur(0)}
+    .reveal.reveal-left{transform:translateX(-24px);}.reveal.reveal-left.is-visible{transform:translateX(0)}
+    .reveal.reveal-scale{transform:translateY(18px) scale(.97)}.reveal.reveal-scale.is-visible{transform:translateY(0) scale(1)}
+    .category,.product{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
+    .button,.nav-cta,.ig-button{transition:transform .25s,background .25s,color .25s,box-shadow .25s}
+    .button:hover,.nav-cta:hover,.ig-button:hover{box-shadow:0 8px 22px #3b1c1020}
+    @media(max-width:800px){.nav{height:74px}.hero{min-height:0;padding:58px 7vw 55px}.hero-photo-wrap{height:400px}.section{padding-block:78px}.category{min-height:210px}.story{padding-block:68px}.story-image{height:325px}}
+    @media(max-width:460px){.download-cta{font-size:0;padding:10px 12px}.download-cta span{font-size:16px}.nav-cta{font-size:0;padding:10px 12px}.nav-cta:after{content:'WhatsApp';font-size:9px}.hero{padding:48px 22px 38px}h1{font-size:77px}.hero-visual{min-height:350px}.hero-photo-wrap{height:345px}.section{padding-block:66px}.category{min-height:175px}.story{padding-block:57px}.story-image{height:260px}.section-head h2{font-size:54px}.quote{padding-block:79px}.quote blockquote{font-size:47px}.visit{padding-block:62px}}
+    @media(prefers-reduced-motion:reduce){.hero-copy > *, .hero-visual{opacity:1;animation:none}.stamp{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}}
+  </style>
+</head>
+<body>
+  <div class="topline"><b>Sejam bem-vindos, a casa é sua!</b> &nbsp;✳&nbsp; Sapeaçu, Bahia</div>
+  <header class="nav">
+    <a class="brand" href="#inicio" aria-label="Império Variedades, início"><img src="assets/imperio-logo.jpg" alt=""><span class="brand-name">Império<small>Variedades</small></span></a>
+    <nav class="navlinks" aria-label="Navegação principal"><a href="#categorias">Categorias</a><a href="#destaque">Nossa loja</a><a href="#achados">Achadinhos</a><a href="#contato">Contato</a></nav>
+    <div style="display:flex;align-items:center;gap:9px"><a class="download-cta" href="imperio-variedades-site.zip" download><span aria-hidden="true">↓</span> Baixar site completo</a><a class="nav-cta" href="https://wa.me/557581798315" target="_blank" rel="noreferrer">Fale com a gente ↗</a></div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy"><div class="eyebrow">Compras e varejo · Sapeaçu, BA</div><h1>Seja bem-vindo.<br><em>A casa é sua!</em></h1><p>Utilidades para casa, decoração, presentes e muito mais. Venha encontrar aquele detalhe especial para deixar sua rotina mais gostosa.</p><div class="actions"><a class="button" href="https://wa.me/557581798315" target="_blank" rel="noreferrer">Chame no WhatsApp <span>↗</span></a><a class="underlink" href="#achados">Explore a loja</a></div></div>
+      <div class="hero-visual"><div class="hero-photo-wrap"><img class="hero-photo" src="assets/produto-domus.webp" alt=" boleira de vidro verde com tampa em formato de domo"><div class="photo-caption"><b>Detalhes que acolhem</b><small>Achados especiais para a sua casa</small></div></div><div class="stamp"><div><span>✳</span>ACHADOS<br>COM CARINHO</div></div><div class="note"><b>Novidades toda semana</b>Passa pra conferir ✨</div></div>
+    </section>
+    <div class="ticker" aria-label="Variedade para casa e para presentear"><div class="ticker-track"><span>Utilidades para casa</span><i>✳</i><span>Decoração</span><i>✳</i><span>Presentes</span><i>✳</i><span>Brinquedos</span><i>✳</i><span>Novidades para você</span><i>✳</i><span>Utilidades para casa</span><i>✳</i><span>Decoração</span><i>✳</i><span>Presentes</span><i>✳</i><span>Brinquedos</span><i>✳</i><span>Novidades para você</span><i>✳</i></div></div>
+    <section class="section" id="categorias"><div class="section-head"><div><div class="eyebrow">Um cantinho para cada ideia</div><h2>Encontre seu<br>próximo achado</h2></div><p>Uma seleção de coisas bonitas e úteis para deixar a casa mais prática, confortável e com a sua cara.</p></div><div class="categories">
+      <a class="category" href="#achados"><img src="assets/boleira-decorativa.webp" alt="Boleira de vidro decorativa"><span class="chip">Para receber</span><span class="cat-label"><b>Cozinha</b><small>Pequenos momentos, mais especiais</small></span></a>
+      <a class="category" href="#achados"><img src="assets/almofada-neutra.jpg" alt="Almofada em tom neutro"><span class="chip">Aconchego</span><span class="cat-label"><b>Casa & tecidos</b><small>Conforto no seu estilo</small></span></a>
+      <a class="category" href="#achados"><img src="assets/tapete-banheiro.jpg" alt="Tapete para banheiro"><span class="chip">Dia a dia</span><span class="cat-label"><b>Banheiro</b><small>Detalhes que fazem diferença</small></span></a>
+      <a class="category" href="#achados"><img src="assets/arranjo-dourado.webp" alt="Arranjo decorativo em tons dourados"><span class="chip">Decore</span><span class="cat-label"><b>Decoração</b><small>Um toque de personalidade</small></span></a>
+    </div></section>
+    <section class="story" id="destaque"><div class="story-image"><img src="assets/variedade-loja.jpg" alt="Prateleiras com variedade de produtos na loja"><span>Um pouquinho do nosso mundo</span></div><div class="story-copy"><div class="eyebrow">Pertinho de você</div><h2>Tem sempre<br>algo <em>especial.</em></h2><p>Daquela utilidade que resolve o dia à decoração que muda o ambiente: a Império Variedades reúne opções para a casa, para presentear e para se surpreender.</p><a class="button" href="https://www.instagram.com/imperio_variedaades/" target="_blank" rel="noreferrer">Veja as novidades no Instagram <span>↗</span></a></div></section>
+    <section class="section products" id="achados"><div class="section-head"><div><div class="eyebrow">Vistos por aqui</div><h2>Ideias para gostar</h2></div><p>Alguns achados que passaram pelo nosso Instagram. Consulte disponibilidade e valores pelo WhatsApp.</p></div><div class="products-grid">
+      <article class="product"><div class="product-photo"><img src="assets/produto-domus.webp" alt="Boleira de vidro verde com tampa"><span class="pill">Cozinha</span></div><div class="product-info"><div><b>Boleira com tampa</b><small>Vidro decorado</small></div><a href="https://wa.me/557581798315?text=Oi!%20Quero%20saber%20sobre%20a%20boleira%20de%20vidro." target="_blank" rel="noreferrer">Consultar ↗</a></div></article>
+      <article class="product"><div class="product-photo"><img src="assets/boleira-decorativa.webp" alt="Boleira alta de vidro"><span class="pill">Para receber</span></div><div class="product-info"><div><b>Boleira de pé</b><small>Mesa posta</small></div><a href="https://wa.me/557581798315?text=Oi!%20Quero%20saber%20sobre%20a%20boleira%20de%20vidro." target="_blank" rel="noreferrer">Consultar ↗</a></div></article>
+      <article class="product"><div class="product-photo"><img src="assets/arranjo-dourado.webp" alt="Arranjo de flores em vaso dourado"><span class="pill">Decoração</span></div><div class="product-info"><div><b>Arranjo decorativo</b><small>Um toque especial</small></div><a href="https://wa.me/557581798315?text=Oi!%20Quero%20saber%20sobre%20o%20arranjo%20decorativo." target="_blank" rel="noreferrer">Consultar ↗</a></div></article>
+      <article class="product"><div class="product-photo"><img src="assets/bandeja-decorativa.webp" alt="Bandeja decorativa com peças para servir"><span class="pill">Presentes</span></div><div class="product-info"><div><b>Bandeja decorativa</b><small>Para servir e decorar</small></div><a href="https://wa.me/557581798315?text=Oi!%20Quero%20saber%20sobre%20a%20bandeja%20decorativa." target="_blank" rel="noreferrer">Consultar ↗</a></div></article>
+    </div></section>
+    <section class="quote"><blockquote>“Sejam bem-vindos,<br><em>a casa é sua!</em>”</blockquote><cite>Império Variedades · Sapeaçu, Bahia</cite></section>
+    <section class="visit" id="contato"><div><h2>Seu próximo achado está por aqui.</h2><p>Fale com a loja para consultar produtos, disponibilidade e atendimento.</p></div><div class="visit-right"><a class="button" href="https://wa.me/557581798315" target="_blank" rel="noreferrer">WhatsApp · (75) 8179-8315 ↗</a><a class="ig-button" href="https://www.instagram.com/imperio_variedaades/" target="_blank" rel="noreferrer">◎ &nbsp; @imperio_variedaades</a></div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#inicio"><img src="assets/imperio-logo.jpg" alt=""><span class="brand-name">Império<small>Variedades</small></span></a><span>Sejam bem-vindos, a casa é sua!</span><div class="footer-links"><a href="#categorias">Categorias</a><a href="#achados">Achadinhos</a><a href="https://www.instagram.com/imperio_variedaades/" target="_blank" rel="noreferrer">Instagram ↗</a></div><span>© 2026 Império Variedades</span></footer>
+  <script>
+    (() => {
+      const groups = [
+        ['.section-head', 0], ['.category', 90], ['.story-image', 0], ['.story-copy > *', 70],
+        ['.product', 90], ['.quote blockquote', 0], ['.quote cite', 100], ['.visit > *', 100]
+      ];
+      const items = [];
+      for (const [selector, step] of groups) {
+        document.querySelectorAll(selector).forEach((el, index) => {
+          el.classList.add('reveal');
+          if (selector === '.category' || selector === '.product') el.classList.add('reveal-scale');
+          if (selector === '.story-image') el.classList.add('reveal-left');
+          el.style.setProperty('--delay', `${index * step}ms`);
+          items.push(el);
+        });
+      }
+      if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        items.forEach(el => el.classList.add('is-visible'));
+        return;
+      }
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -35px 0px' });
+      items.forEach(el => observer.observe(el));
+    })();
+  </script>
+</body>
+</html>
