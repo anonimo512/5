@@ -91,10 +91,28 @@
     @media(max-width:800px){.nav{height:74px}.hero{min-height:0;padding:58px 7vw 55px}.hero-photo-wrap{height:400px}.section{padding-block:78px}.category{min-height:210px}.story{padding-block:68px}.story-image{height:325px}}
     @media(max-width:460px){.download-cta{font-size:0;padding:10px 12px}.download-cta span{font-size:16px}.nav-cta{font-size:0;padding:10px 12px}.nav-cta:after{content:'WhatsApp';font-size:9px}.hero{padding:48px 22px 38px}h1{font-size:77px}.hero-visual{min-height:350px}.hero-photo-wrap{height:345px}.section{padding-block:66px}.category{min-height:175px}.story{padding-block:57px}.story-image{height:260px}.section-head h2{font-size:54px}.quote{padding-block:79px}.quote blockquote{font-size:47px}.visit{padding-block:62px}}
     @media(prefers-reduced-motion:reduce){.hero-copy > *, .hero-visual{opacity:1;animation:none}.stamp{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}}
+    @media(max-width:800px){.hero{padding-top:34px}.hero-visual{min-height:0;width:100%;margin:8px auto 0;padding:0 8px 18px}.hero-photo-wrap{width:100%;height:auto;aspect-ratio:1.12;border-radius:6px;box-shadow:0 14px 34px #51311920}.hero-photo{object-position:center 53%}.hero-photo-wrap:after{inset:58% 0 0}.stamp{width:78px;height:78px;right:0;top:18px;font-size:8px}.stamp span{font-size:16px}.note{left:0;bottom:0;transform:none;padding:11px 13px}.photo-caption{left:16px;bottom:15px}.photo-caption b{font-size:14px}}
+    .ticker i{font-size:0;width:8px;height:8px;border:1px solid currentColor;transform:rotate(45deg);display:inline-block;background:transparent}
+    .topline{letter-spacing:.1em}
+    .quote:before,.quote:after{content:'✳︎'}
+    .stamp span{font-size:0}.stamp span:after{content:'✳︎';font-size:19px}
+    @media(max-width:460px){.hero{padding:38px 20px 30px}.hero-visual{padding-inline:2px}.hero-photo-wrap{aspect-ratio:1.05}.note{font-size:9px}.note b{font-size:11px}.topline{font-size:7px}.actions{gap:15px}.button{min-height:46px}}
+    /* Hero consistente: recorte retangular e título sem quebra no hífen */
+    .hero{grid-template-columns:1fr 1fr;gap:5vw}
+    h1{font-size:clamp(58px,6.2vw,88px);line-height:.88}
+    .welcome{white-space:nowrap}
+    .hero-photo-wrap{width:min(100%,540px);height:auto;aspect-ratio:1.08;border-radius:6px;box-shadow:0 22px 58px #51311920}
+    .hero-photo-wrap:after{inset:58% 0 0}
+    .stamp,.note{display:none}
+    .photo-caption{left:22px;bottom:20px}
+    .photo-caption b{font-size:16px}
+    .photo-caption small{font-size:10px}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:20px}.hero-photo-wrap{height:auto;aspect-ratio:1.08}}
+    @media(max-width:460px){h1{font-size:clamp(52px,13.5vw,68px)}.hero{gap:12px}.hero-photo-wrap{aspect-ratio:1.03}.photo-caption{left:16px;bottom:15px}}
   </style>
 </head>
 <body>
-  <div class="topline"><b>Sejam bem-vindos, a casa é sua!</b> &nbsp;✳&nbsp; Sapeaçu, Bahia</div>
+  <div class="topline"><b>Sejam bem-vindos, a casa é sua!</b> <span aria-hidden="true">·</span> Sapeaçu, Bahia</div>
   <header class="nav">
     <a class="brand" href="#inicio" aria-label="Império Variedades, início"><img src="assets/imperio-logo.jpg" alt=""><span class="brand-name">Império<small>Variedades</small></span></a>
     <nav class="navlinks" aria-label="Navegação principal"><a href="#categorias">Categorias</a><a href="#destaque">Nossa loja</a><a href="#achados">Achadinhos</a><a href="#contato">Contato</a></nav>
@@ -102,7 +120,7 @@
   </header>
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-copy"><div class="eyebrow">Compras e varejo · Sapeaçu, BA</div><h1>Seja bem-vindo.<br><em>A casa é sua!</em></h1><p>Utilidades para casa, decoração, presentes e muito mais. Venha encontrar aquele detalhe especial para deixar sua rotina mais gostosa.</p><div class="actions"><a class="button" href="https://wa.me/557581798315" target="_blank" rel="noreferrer">Chame no WhatsApp <span>↗</span></a><a class="underlink" href="#achados">Explore a loja</a></div></div>
+      <div class="hero-copy"><div class="eyebrow">Compras e varejo · Sapeaçu, BA</div><h1>Seja <span class="welcome">bem-vindo.</span><br><em>A casa é sua!</em></h1><p>Utilidades para casa, decoração, presentes e muito mais. Venha encontrar aquele detalhe especial para deixar sua rotina mais gostosa.</p><div class="actions"><a class="button" href="https://wa.me/557581798315" target="_blank" rel="noreferrer">Chame no WhatsApp <span>↗</span></a><a class="underlink" href="#achados">Explore a loja</a></div></div>
       <div class="hero-visual"><div class="hero-photo-wrap"><img class="hero-photo" src="assets/produto-domus.webp" alt=" boleira de vidro verde com tampa em formato de domo"><div class="photo-caption"><b>Detalhes que acolhem</b><small>Achados especiais para a sua casa</small></div></div><div class="stamp"><div><span>✳</span>ACHADOS<br>COM CARINHO</div></div><div class="note"><b>Novidades toda semana</b>Passa pra conferir ✨</div></div>
     </section>
     <div class="ticker" aria-label="Variedade para casa e para presentear"><div class="ticker-track"><span>Utilidades para casa</span><i>✳</i><span>Decoração</span><i>✳</i><span>Presentes</span><i>✳</i><span>Brinquedos</span><i>✳</i><span>Novidades para você</span><i>✳</i><span>Utilidades para casa</span><i>✳</i><span>Decoração</span><i>✳</i><span>Presentes</span><i>✳</i><span>Brinquedos</span><i>✳</i><span>Novidades para você</span><i>✳</i></div></div>
